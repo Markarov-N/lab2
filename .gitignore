@@ -1,0 +1,43 @@
+# Скомпилированные бинарники
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.dylib
+
+# Файлы Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.sdf
+*.sln
+ipch/
+Debug/
+Release/
+x64/
+x86/
+
+# Результаты выполнения программы
+bench_*.txt
+result_cpp.txt
+performance_graph.png
+
+# Сгенерированные матрицы (можно раскомментировать, если нужно коммитить)
+matrix_a.txt
+matrix_b.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
